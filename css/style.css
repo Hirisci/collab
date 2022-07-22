@@ -56,3 +56,29 @@ body {
 /*╔═══════════════╗
     TAG SEMANTICI
   ╚═══════════════╝*/
+
+/*╔═══════════════╗
+        FOOTER
+  ╚═══════════════╝*/
+
+/*-FOOTER TOP-*/
+.footer-top {
+  background-color: var(--clr-bg-3);
+  color: var(--clr-secondary-0);
+}
+
+.social__icon {
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+  border: 1px solid var(--clr-secondary-0);
+}
+/*-FOOTER BOT-*/
+.footer-bot {
+  background-color: var(--clr-bg-0);
+  color: var(--clr-secondary-0);
+  font-size: smaller;
+  text-align: center;
+}
