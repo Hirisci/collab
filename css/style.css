@@ -63,7 +63,6 @@ body {
 .about {
   background-color: var(--clr-bg-1);
   color: white;
-  padding: 3.125rem 0;
   font-weight: 500;
 }
 .about .container {
@@ -72,11 +71,12 @@ body {
 .about h2 {
   text-transform: uppercase;
 }
-
-.about hr {
-  width: 30%;
+.about .line{
+  height: 2px;
+  width: 20%;
+  border: 1px solid white;
+  border-radius: .625rem;
 }
-
 .about .col-6 {
   text-align: left;
 }
