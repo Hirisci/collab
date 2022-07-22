@@ -60,21 +60,30 @@ body {
 /*╔═══════════════╗
     SECTION ABOUT
   ╚═══════════════╝*/
-  .about {
-    background-color: var(--clr-bg-1);
-    color: white;
-  }
-  .about .container {
-    text-align: center;
-  }
-  .about h2 {
-    text-transform: uppercase;
-  }
+.about {
+  background-color: var(--clr-bg-1);
+  color: white;
+  padding: 3.125rem 0;
+  font-weight: 500;
+}
+.about .container {
+  text-align: center;
+}
+.about h2 {
+  text-transform: uppercase;
+}
 
-  .about hr {
-    width: 30%;
-  }
+.about hr {
+  width: 30%;
+}
 
-  .about .col-6 {
-    text-align: left;
-  }
+.about .col-6 {
+  text-align: left;
+}
+.btn-download {
+  background-color: transparent;
+  border: .0625rem solid white;
+  border-radius: .3125rem;
+  color: white;
+  padding: .3125rem .625rem;
+}
