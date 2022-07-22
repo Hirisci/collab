@@ -50,32 +50,63 @@
 
 body {
   font-family: 'rotobo', sans-serif;
-  color: var(--colore-testo);
 }
 
 /*╔═══════════════╗
        HEADER
   ╚═══════════════╝*/
   header {
-    color: #fff;
+    color: var(--clr-secondary-0);
   }
 
   .header-nav__list {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    gap: 0 10px;
-    margin-bottom: 0px;
+    gap: 0 .625rem;
+    margin-bottom: 0rem;
   }
 
   .header-nav__link {
     text-decoration: none;
-    color: #fff;
+    color: var(--clr-secondary-0);
   }
 
   .ms_btn-header {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
+
+/*╔═══════════════╗
+       HERO
+  ╚═══════════════╝*/
+  .hero {
+    color: var(--clr-secondary-0);
+    text-align: center;
+  }
+
+  .hero__img {
+    height: 15.625rem;
+  }
+
+  .hero__decoration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero__decoration-bar {
+    background-color: var(--clr-secondary-0);
+    width: 15%;
+    height: .25rem;
+    border: .0625rem solid var(--clr-secondary-0);
+    border-radius: .625rem;
+    margin: 0 .625rem;
+  }
+
+  .hero__decoration-icon {
+    font-size: 1.5rem;
+  }
+
 
 /*╔═══════════════╗
     TAG SEMANTICI
