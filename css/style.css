@@ -191,3 +191,36 @@ body {
     font-size: 24px;
     color: #2c3e50;
 }
+/*╔═══════════════════╗
+    PORTFOLIO SECTION
+  ╚═══════════════════╝*/
+section.portfolio img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+section.portfolio h2.title {
+  text-transform: uppercase;
+  color: var(--clr-primary-0);
+}
+
+section.portfolio .col.separe {
+  margin: 10px 0;
+}
+
+section.portfolio .decoration.bar {
+  width: 8vw;
+  height: 5px;
+  background-color: var(--clr-primary-0);
+  border-radius: 20px;
+}
+
+section.portfolio .decoration.icon {
+  margin: 0 10px;
+  margin-top: -5px;
+  font-size: 25px;
+}
+
+section.portfolio .row {
+  margin: 30px 0;
+}
