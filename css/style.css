@@ -56,3 +56,10 @@ body {
 /*╔═══════════════╗
     TAG SEMANTICI
   ╚═══════════════╝*/
+
+/*╔═══════════════════╗
+    PORTFOLIO SECTION
+  ╚═══════════════════╝*/
+main .portfolio img {
+  width: 100%;
+}
