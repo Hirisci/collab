@@ -224,3 +224,33 @@ section.portfolio .decoration.icon {
 section.portfolio .row {
   margin: 30px 0;
 }
+
+/* SECTION ABOUT  */
+
+.about {
+  background-color: var(--clr-bg-1);
+  color: white;
+  font-weight: 500;
+}
+.about .container {
+  text-align: center;
+}
+.about h2 {
+  text-transform: uppercase;
+}
+.about .line{
+  height: 2px;
+  width: 20%;
+  border: 1px solid white;
+  border-radius: .625rem;
+}
+.about .col-6 {
+  text-align: left;
+}
+.btn-download {
+  background-color: transparent;
+  border: .0625rem solid white;
+  border-radius: .3125rem;
+  color: white;
+  padding: .3125rem .625rem;
+}
