@@ -54,5 +54,29 @@ body {
 }
 
 /*╔═══════════════╗
+       HEADER
+  ╚═══════════════╝*/
+  header {
+    color: #fff;
+  }
+
+  .header-nav__list {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 0 10px;
+    margin-bottom: 0px;
+  }
+
+  .header-nav__link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .ms_btn-header {
+    font-size: 20px;
+  }
+
+/*╔═══════════════╗
     TAG SEMANTICI
   ╚═══════════════╝*/
